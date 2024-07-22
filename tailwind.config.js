@@ -8,6 +8,7 @@ module.exports = {
       },
       colors:{
         "gris-nav": "#333",
+        "gris-texto": "#555",
         "naranja": "#e67e22",
         "naranja-hover":"#cf711f"
         

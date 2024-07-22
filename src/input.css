@@ -73,6 +73,23 @@
       font-bold 
     ;
   }
+  .btn-naranja-seccion6{
+    @apply
+    text-center
+      bg-naranja
+      text-white
+      pt-2
+      pb-2
+      pl-9
+      pr-9
+      rounded-xl
+      text-xl
+      font-bold 
+      w-3/5 
+      mx-auto  
+      mb-12
+    ;
+  }
   .btn-blanco{
     @apply
     text-center
@@ -168,6 +185,8 @@
       text-center 
     mx-auto
     p-12
+    bg-white
+
       
     ;
   }
@@ -253,6 +272,16 @@
     text-left
     ;
   }
+  .titulo-seccion-grid-naranja-center-price{
+    @apply
+    text-naranja 
+    font-bold
+    text-center
+    text-xl
+    mt-9
+    mb-9
+    ;
+  }
   
   .titulo-seccion-4{
     @apply
@@ -307,6 +336,13 @@
     mr-5
     ;
   }
+  .icon-card-price{
+    @apply
+    size-6 
+    text-naranja
+    ml-14
+    ;
+  }
 
   .text-card{
     @apply
@@ -342,6 +378,7 @@
     text-center
     mx-auto
     p-20
+    bg-background-primera
     ;
   }
 
@@ -403,6 +440,83 @@
 
     ;
   }
+
+  .sexta-seccion{
+    @apply
+    block
+      text-left
+    mx-auto
+    p-20
+    ;
+  }
+
+  .cards-price{
+    @apply
+      grid
+      grid-cols-2  
+    ;
+  }
+
+  .card-price1{
+    @apply
+    shadow-xl
+    rounded-xl
+    border   
+    mr-7
+    w-3/4
+    ;
+  }
+  .card-price2{
+    @apply
+    bg-background-primera
+    shadow-xl
+    rounded-xl
+    border   
+    mr-7
+    w-3/4
+    ;
+  }
+  .lista-items{
+    @apply
+    flex  
+    mb-6
+    font-Rubik
+    text-gris-texto
+    text-xl
+    ;
+  }
+  .ul-margin{
+    @apply
+    mt-11 
+    mb-11
+    ;
+  }
+  .texto-seccion6{
+    @apply
+    font-Rubik 
+    text-gris-texto
+    mt-5 
+    mb-5 
+    block 
+    text-center
+    ;
+  }
+  .texto-precio-seccion6{
+    @apply
+    font-Rubik 
+    text-gris-nav 
+    text-3xl
+    ;
+  }
+  .precio-seccion6{
+    @apply
+    font-Rubik 
+    text-gris-nav 
+    text-7xl
+    ;
+  }
+
+
 
   
 }
