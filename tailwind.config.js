@@ -10,12 +10,14 @@ module.exports = {
         "gris-nav": "#333",
         "gris-texto": "#555",
         "naranja": "#e67e22",
-        "naranja-hover":"#cf711f"
+        "naranja-hover":"#cf711f",
+        "cafe": "#45260a"
         
       },
       backgroundColor:{
         "background-primera":"#fdf2e9",
-        "backgrouund-tag-verde": "#51cf66"
+        "backgrouund-tag-verde": "#51cf66",
+        "background-naranja":"#eb984e"
       },
       animation:{
         'show-card-icon': 'showCardIcon 300ms linear'

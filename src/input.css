@@ -248,6 +248,7 @@
     mb-10
     ;
   }
+  
 
   .cuarta-seccion{
     @apply
@@ -294,6 +295,8 @@
     ;
   }
 
+  
+
   .seccion-grid-3col{
     @apply
     grid
@@ -329,6 +332,18 @@
     mb-8
     ;
   }
+  .titulo-cards-septima-seccion{
+    @apply
+    font-Rubik
+    text-gris-nav
+    font-bold
+    text-left
+    text-2xl  
+    ml-8 
+    mt-2
+    mb-8
+    ;
+  }
   .icon-card{
     @apply
     size-6 
@@ -341,6 +356,16 @@
     size-6 
     text-naranja
     ml-14
+    ;
+  }
+  .icon-card-septima-seccion{
+    @apply
+    size-9
+    text-naranja
+   
+    ml-14
+    mb-7
+
     ;
   }
 
@@ -515,6 +540,100 @@
     text-7xl
     ;
   }
+  .ultimo-texto-seccion6{
+    @apply
+    text-center 
+    mt-12 
+    text-gris-texto 
+    font-Rubik
+    ;
+  }
+    .septima-seccion{
+      @apply
+      grid
+      grid-cols-4
+      gap-8
+
+      
+    mx-auto
+    p-20
+    ;
+      ;
+    }
+    .card-septima-seccion{
+      @apply
+      text-left
+      
+      ;
+    }
+    .texto-septima-seccion{
+      @apply
+      flex  
+      mb-6
+      ml-8
+      font-Rubik
+      text-gris-texto
+      text-xl
+      ;
+    }
+
+    .octava-seccion{
+      @apply
+      block
+      
+      
+
+      
+    
+    ;
+      
+    }
+    .texto{
+      @apply
+      bg-background-naranja
+      grid
+      grid-cols-2
+      gap-8
+      mx-auto
+      p-16
+      ml-20
+      mr-20
+      ;
+    }
+
+    .titulo-principal8{
+      @apply
+      font-Rubik
+      font-bold
+      text-left
+      text-4xl
+      
+      
+      text-cafe
+      mb-10
+      
+      ;
+    }
+
+    .texto-label{
+      @apply
+      text-cafe
+      font-bold
+      text-base
+      ;
+    }
+
+    .texto-octava-sec{
+      @apply
+      font-Rubik
+      text-gris-nav
+      mb-10
+      text-xl
+      text-cafe
+      ;
+    }
+   
+  
 
 
 
