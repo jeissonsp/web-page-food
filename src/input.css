@@ -35,7 +35,7 @@
     mx-auto
     justify-end
     text-lg
-    font-bold
+    font-medium
     text-gris-nav
    
     ;
@@ -46,6 +46,8 @@
     hover:text-naranja-hover
     ;
   }
+
+  
   .btn-naranja{
     @apply
     text-center
@@ -53,10 +55,11 @@
       text-white
       pt-2
       pb-2
-      pl-8
-      pr-8
+      pl-7
+      pr-7
+      text-base
       rounded-xl
-     
+      hover:bg-naranja-hover 
     ;
   }
   .btn-naranja-sec{
@@ -71,6 +74,7 @@
       rounded-xl
       text-xl
       font-bold 
+      hover:bg-naranja-hover
     ;
   }
   .btn-naranja-seccion6{
@@ -88,8 +92,11 @@
       w-3/5 
       mx-auto  
       mb-12
+      hover:bg-naranja-hover
     ;
   }
+
+  
   .btn-blanco{
     @apply
     text-center
@@ -202,12 +209,22 @@
 
     ;
   }
+  .titulo-seccion02{
+    @apply
+    grayscale
+    text-base 
+    font-semibold 
+    text-gris-texto
+    ;
+  }
   .imag{
     @apply
       h-9
       w-7/12
-      brightness-0
-      grayscale 
+      grayscale
+      hover:grayscale-0
+      hover:brightness-100
+      hover:scale-95
     ;
   }
 
@@ -218,6 +235,15 @@
     mx-auto
     p-20
     
+  }
+ 
+  .numeros-seccion03{
+    @apply
+    text-7xl 
+    font-bold 
+    text-gris-texto 
+    hover:text-naranja
+    ;
   }
 
   .seccion-grid{
@@ -310,6 +336,34 @@
     @apply
     font-Rubik
     bg-backgrouund-tag-verde
+    
+    text-xs
+    font-bold
+    text-gris-nav
+    p-1
+    pl-2
+    pr-2
+    rounded-2xl
+
+  }
+  .tag-vegan{
+    @apply
+    font-Rubik
+    bg-backgrouund-tag-vegan
+    
+    text-xs
+    font-bold
+    text-gris-nav
+    p-1
+    pl-2
+    pr-2
+    rounded-2xl
+
+  }
+  .tag-paleo{
+    @apply
+    font-Rubik
+    bg-backgrouund-tag-paleo
     
     text-xs
     font-bold
@@ -593,11 +647,14 @@
       bg-background-naranja
       grid
       grid-cols-2
+      grid-cols-65-35
       gap-8
+      
       mx-auto
       p-16
       ml-20
       mr-20
+      rounded-lg
       ;
     }
 
@@ -620,6 +677,8 @@
       text-cafe
       font-bold
       text-base
+      block 
+      mb-2
       ;
     }
 
@@ -630,6 +689,112 @@
       mb-10
       text-xl
       text-cafe
+      ;
+    }
+
+    .textField-octava-sec{
+      @apply
+      block 
+      p-2 
+      w-11/12 
+      rounded-xl 
+      font-Rubik  
+      ;
+    }
+    .btn-cafe-seccion8{
+      @apply
+      text-center
+        bg-cafe
+        text-beage        
+        pt-2
+        pb-2
+        pl-9
+        pr-9
+        rounded-xl
+        transition
+        duration-300
+        text-xl
+        font-bold 
+        w-11/12
+        mx-auto  
+        mb-12
+        
+        hover:bg-white
+        hover:text-gris-texto
+      ;
+    }
+    .seccion9{
+      @apply
+      grid 
+      grid-cols-5
+      gap-5
+    }
+    .novena-seccion{
+      @apply
+     block
+      
+      mx-auto
+      w-full
+      p-16
+      ml-5
+      mr-20
+      rounded-lg
+      ;
+    }
+
+    .titulo-footer{
+      @apply
+      text-gris-nav 
+      text-xl 
+      font-bold 
+      font-Rubik 
+      text-left
+      mb-8
+      ;
+    }
+    .texto-items{
+      @apply
+      text-gris-texto
+      text-base      
+      font-Rubik 
+      text-left
+      
+      ;
+    }
+    .texto-items-footer{
+      @apply
+      text-gris-texto
+      text-base      
+      font-Rubik 
+      text-left
+      leading-8
+      ;
+    }
+
+    .texto-items-peq{
+      @apply
+      text-gris-texto
+      text-sm  
+      font-Rubik 
+      text-left
+      leading-8
+      ;
+    }
+
+    .social-links{
+      @apply
+      flex
+      gap-4
+      mx-auto
+      mt-8
+      mb-12
+      ;
+    }
+    .social-icon{
+      @apply
+      
+      size-6
+      text-gris-texto
       ;
     }
    

@@ -611,7 +611,7 @@ video {
   font-family: 'Rubik', sans-serif;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  font-weight: 700;
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
@@ -627,11 +627,18 @@ video {
   background-color: rgb(230 126 34 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.btn-naranja:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 113 31 / var(--tw-bg-opacity));
 }
 
 .btn-naranja-sec {
@@ -648,6 +655,11 @@ video {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.btn-naranja-sec:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 113 31 / var(--tw-bg-opacity));
 }
 
 .btn-naranja-seccion6 {
@@ -668,6 +680,11 @@ video {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.btn-naranja-seccion6:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 113 31 / var(--tw-bg-opacity));
 }
 
 .btn-blanco {
@@ -776,11 +793,29 @@ video {
   padding: 1.5rem;
 }
 
+.titulo-seccion02 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .imag {
   height: 2.25rem;
   width: 58.333333%;
-  --tw-brightness: brightness(0);
   --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.imag:hover {
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-brightness: brightness(1);
+  --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -790,6 +825,19 @@ video {
   display: block;
   padding: 5rem;
   text-align: left;
+}
+
+.numeros-seccion03 {
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+.numeros-seccion03:hover {
+  --tw-text-opacity: 1;
+  color: rgb(230 126 34 / var(--tw-text-opacity));
 }
 
 .seccion-grid {
@@ -865,6 +913,36 @@ video {
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(81 207 102 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.tag-vegan {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 216 45 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.tag-paleo {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 212 59 / var(--tw-bg-opacity));
   padding: 0.25rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1150,7 +1228,9 @@ video {
   margin-right: 5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 65% 35%;
   gap: 2rem;
+  border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 152 78 / var(--tw-bg-opacity));
   padding: 4rem;
@@ -1168,6 +1248,8 @@ video {
 }
 
 .texto-label {
+  margin-bottom: 0.5rem;
+  display: block;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 700;
@@ -1185,12 +1267,139 @@ video {
   color: rgb(69 38 10 / var(--tw-text-opacity));
 }
 
+.textField-octava-sec {
+  display: block;
+  width: 91.666667%;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.btn-cafe-seccion8 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 91.666667%;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 38 10 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(253 242 233 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-cafe-seccion8:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+.seccion9 {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.novena-seccion {
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 1.25rem;
+  margin-right: 5rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 4rem;
+}
+
+.titulo-footer {
+  margin-bottom: 2rem;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.texto-items {
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+.texto-items-footer {
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+.texto-items-peq {
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.875rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+.social-links {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
+}
+
+.absolute {
+  position: absolute;
+}
+
+.-mt-16 {
+  margin-top: -4rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-16 {
   margin-left: 4rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .ml-56 {
@@ -1226,6 +1435,10 @@ video {
   height: 1.5rem;
 }
 
+.h-height-image {
+  height: 83.5%;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1242,12 +1455,28 @@ video {
   flex-wrap: nowrap;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.rounded-br-xl {
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-tr-xl {
+  border-top-right-radius: 0.75rem;
 }
 
 .pt-3 {
@@ -1265,11 +1494,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .text-xl {
@@ -1293,10 +1517,6 @@ video {
 .text-naranja {
   --tw-text-opacity: 1;
   color: rgb(230 126 34 / var(--tw-text-opacity));
-}
-
-.opacity-25 {
-  opacity: 0.25;
 }
 
 .transition {
